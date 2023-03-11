@@ -1,0 +1,773 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+    --color-1: #0d2715;
+    --color-2: #164323;
+    --color-3: #FFFFFF;
+    --color-4: #eeeaea;
+    --color-5: rgb(129, 127, 127);
+    --color-6: rgb(182, 178, 178);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* barra de navegação*/
+
+.nav-main {
+    width: 100%;
+    background: var(--color-2);
+}
+
+.nav-container {
+    width: 100%;
+    height: 90px;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-logo h1 {
+    font-size: 24px;
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    color: var(--color-3);
+}
+
+/*------------------------------------*/
+
+/* main e section*/
+
+/* formulario*/
+
+.form {
+    width: 100%;
+}
+
+.background {
+    background-image: url(../img/background.jpg);
+    padding: 30px 0;
+}
+
+.div-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.form-container {
+    width: 320px;
+    max-width: 768px;
+    height: 590px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-2);
+    border: solid var(--color-3);
+    border-radius: 15px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container form input {
+    width: 270px;
+    height: 45px;
+    padding: 20px;
+}
+
+.form-container form input::placeholder {
+    color: var(--color-6);
+}
+
+.form-container form button {
+    width: 270px;
+    height: 45px;
+    background: var(--color-1);
+    color: var(--color-3);
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-logo {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+}
+
+.form-logo h1 {
+    font-size: 34px;
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    color: var(--color-3);
+    margin-bottom: 20px;
+}
+
+.form-text h2 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: var(--color-3);
+    padding-bottom: 10px;
+}
+
+.form-text p {
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: var(--color-3);
+}
+
+/*------------------------*/
+
+/* sobre nos*/
+
+.about {
+    width: 100%;
+}
+
+.about-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.about-card {
+    width: 250px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    background: var(--color-4);
+    border-radius: 15px;
+}
+
+.about-img {
+    width: 60px;
+    height: 60px;
+    background: var(--color-1);
+    border-radius: 50px;
+}
+
+.about-text h2 {
+    padding-bottom: 20px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: var(--color-5);
+}
+
+.about-text p {
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+    color: var(--color-5);
+}
+
+/*------------------------*/
+
+/* negocios*/
+
+.business {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.business-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.business-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.business-text img {
+    border-radius: 15px;
+}
+
+.business-text h1 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+}
+
+.business-text p {
+    width: 270px;
+    font-size: 18px;
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+    color: var(--color-5);
+}
+
+/*------------------------*/
+
+/* caracteristicas*/
+
+.characteristics {
+    width: 100%;
+    background: var(--color-1);
+}
+
+.characteristics-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+.characteristics-card {
+    width: 270px;
+    height: 350px;
+    background: var(--color-4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.img-characteristics {
+    width: 60px;
+    height: 60px;
+    background: var(--color-1);
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.characteristics-card h2 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    color: var(--color-5);
+}
+
+.characteristics-card p {
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+    color: var(--color-5);
+    padding: 0 20px;
+}
+
+/*------------------------*/
+
+/* serviços 1*/
+
+.services-1 {
+    width: 100%;
+}
+
+.services-1-title {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.services-1-title h1 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+/*------------------------*/
+
+/* serviços 2*/
+
+.services-2 {
+    width: 100%;
+    background: var(--color-1);
+}
+
+.services-2-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services-2-container h1 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: var(--color-3);
+    font-size: 34px;
+    padding-top: 20px;
+}
+
+.services-2-cards {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    gap: 50px;
+}
+
+.services-2-card {
+    width: 90%;
+}
+
+.services-2-card img {
+    width: 300px;
+    padding-top: 20px;
+}
+
+.services-2-card h2 {
+    color: var(--color-3);
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+}
+
+.services-2-card p {
+    color: var(--color-3);
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/*------------------------*/
+
+/* contatos*/
+.contacts {
+    width: 100%;
+}
+
+.contacts-container {
+    padding: 20px 10px;
+}
+
+.contacts-container h1 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: var(--color-1);
+    padding-bottom: 10px;
+}
+
+.contacts-icon {
+    background: var(--color-6);
+    border-radius: 50px;
+}
+
+.contacts-icon img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.contacts-list {
+    display: flex;
+    padding: 5px;
+}
+
+.contacts-list p {
+    padding-left: 10px;
+    margin-top: 3px;
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: var(--color-1);
+}
+
+/*------------------------*/
+
+/*------------------------------------*/
+
+/* rodapé*/
+
+footer {
+    width: 100%;
+    height: 90px;
+    background: var(--color-1);
+
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 960px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container h1 {
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: var(--color-3);
+}
+
+/*------------------------------------*/
+
+/* responsividade*/
+
+@media(min-width: 576px) {
+    /* barra de navegação*/
+
+    .nav-logo h1 {
+        font-size: 26px;
+
+    }
+
+    /*------------------------------------*/
+
+    /* formulario*/
+
+    .form-container {
+        width: 520px;
+        height: 620px;
+    }
+
+    .form-logo {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .form-logo h1 {
+        font-size: 36px;
+    }
+
+    .form-text h2 {
+        font-size: 20px;
+    }
+
+    .form-text p {
+        font-size: 17px;
+        padding: 25px;
+
+    }
+
+    .form-container form input {
+        width: 410px;
+    }
+
+    .form-container form button {
+        width: 410px;
+        font-size: 18px;
+    }
+
+    /*------------------------------------*/
+
+    /* sobre nos*/
+    .about-card {
+        width: 280px;
+        height: 310px;
+    }
+
+    .about-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .about-text h2 {
+        font-size: 24px;
+    }
+
+    .about-text p {
+        font-size: 18px;
+    }
+
+    /*------------------------------------*/
+
+    /* negocios*/
+
+    .business-text h1 {
+        font-size: 26px;
+    }
+
+    .business-text p {
+        width: 340px;
+        font-size: 20px;
+    }
+
+    /*------------------------------------*/
+
+    /* caracteristicas*/
+
+    .characteristics-card {
+        width: 300px;
+        height: 380px;
+    }
+
+    .characteristics-card h2 {
+        font-size: 26px;
+    }
+
+    .characteristics-card p {
+        font-size: 18px;
+
+    }
+
+    /*------------------------------------*/
+
+    /* serviços 1*/
+
+    .services-1-title h1 {
+        font-size: 30px;
+    }
+
+    /*------------------------------------*/
+
+    /* serviços 2*/
+
+    .services-2-container h1 {
+        font-size: 36px;
+    }
+
+    .services-2-card img {
+        width: 320px;
+        padding-top: 20px;
+    }
+
+    .services-2-card h2 {
+        font-size: 24px;
+    }
+
+    .services-2-card p {
+        font-size: 18px;
+    }
+
+    /*------------------------------------*/
+
+    /* contatos*/
+
+    .contacts-container h1 {
+        font-size: 32px;
+    }
+
+    .contacts-icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contacts-list p {
+        font-size: 18px;
+    }
+
+    /*------------------------------------*/
+
+    /* rodapé*/
+
+    .footer-container h1 {
+        font-size: 22px;
+    }
+
+    /*------------------------------------*/
+}
+
+@media(min-width: 768px) {
+    /* barra de navegação*/
+
+    .nav-logo h1 {
+        font-size: 30px;
+
+    }
+
+    /*------------------------------------*/
+
+    /* formulario*/
+
+    .form-container {
+        width: 620px;
+        height: 660px;
+    }
+
+    .form-logo {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .form-logo h1 {
+        font-size: 36px;
+    }
+
+    .form-text h2 {
+        font-size: 24px;
+    }
+
+    .form-text p {
+        font-size: 21px;
+        padding: 25px;
+        line-height: 30px;
+    }
+
+    .form-container form input {
+        width: 550px;
+    }
+
+    .form-container form button {
+        width: 550px;
+        font-size: 20px;
+    }
+
+    /*------------------------------------*/
+
+    /* sobre nos*/
+
+    .about-container {
+        width: 100%;
+        max-width: 960px;
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px 0;
+    }
+
+    .about-card {
+        width: 300px;
+        height: 340px;
+    }
+
+    .about-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .about-text h2 {
+        font-size: 26px;
+    }
+
+    .about-text p {
+        font-size: 18px;
+    }
+
+    /*------------------------------------*/
+
+    /* negocios*/
+
+    .business-text img {
+        width: 400px;
+    }
+
+    .business-text h1 {
+        font-size: 32px;
+    }
+
+    .business-text p {
+        width: 420px;
+        font-size: 24px;
+    }
+
+    /*------------------------------------*/
+
+    /* caracteristicas*/
+
+    .characteristics-container {
+        flex-direction: row;
+    }
+
+    .img-characteristics {
+        width: 80px;
+        height: 80px;
+    }
+
+    .characteristics-card {
+        width: 350px;
+        height: 420px;
+    }
+
+    .characteristics-card h2 {
+        font-size: 28px;
+    }
+
+    .characteristics-card p {
+        font-size: 18px;
+
+    }
+
+    /*------------------------------------*/
+
+    /* serviços 1*/
+
+    .services-1-title {
+        width: 600px;
+    }
+
+    .services-1-title h1 {
+        font-size: 38px;
+    }
+
+    /*------------------------------------*/
+
+    /* serviços 2*/
+
+    .services-2-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .services-2-card {
+        width: 450px;
+    }
+
+    .services-2-container h1 {
+        font-size: 38px;
+    }
+
+    .services-2-card img {
+        width: 350px;
+        padding-top: 20px;
+    }
+
+    .services-2-card h2 {
+        font-size: 26px;
+    }
+
+    .services-2-card p {
+        font-size: 20px;
+    }
+
+    /*------------------------------------*/
+
+    /* contatos*/
+
+    .contacts-container h1 {
+        font-size: 34px;
+    }
+
+    .contacts-icon img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .contacts-list p {
+        font-size: 20px;
+    }
+
+    /*------------------------------------*/
+
+    /* rodapé*/
+
+    .footer-container h1 {
+        font-size: 24px;
+    }
+
+    /*------------------------------------*/
+}
+
+/*------------------------------------*/
